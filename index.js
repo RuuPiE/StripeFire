@@ -1,4 +1,4 @@
-import StripeFire from 'stripe-fire'
+import StripeFire from './lib/stripe-fire'
 
 
 module.exports = StripeFire
