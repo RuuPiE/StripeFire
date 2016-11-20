@@ -243,7 +243,7 @@ describe('StripeFire', function () {
       planRef.set({
         amount: 2000,
         interval: 'month',
-        name: planRef.key(),
+        name: planRef.key,
         currency: 'usd'
       }, done);
     });
